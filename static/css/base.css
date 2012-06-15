@@ -1,18 +1,27 @@
 body {
 	margin: 0;
-	padding: 20px;
+	padding: 0;
 	font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
+}
+
+#portfolio {
+	margin: 0 auto;
+	padding: 0 30px;
+	text-align: right;
+	max-width: 880px;
 }
 
 h1 {
 	margin-bottom: 0;
-	font-size: 4em;
+	padding-right: 20px;
+	font-size: 3em;
 	font-weight: 700;
 }
 
 h2 {
-	font-size: 3.4em;
+	margin-bottom: 50px;
+	padding-right: 20px;
+	font-size: 2em;
 	font-weight: 400;
 }
 
@@ -24,19 +33,19 @@ a {
 .curve {
 	position: relative;
 	z-index: inherit;
-	width: 850px;
+	max-width: 850px;
 	height: auto;
 	margin: 50px auto;
-	padding: 16px;
+	padding: 1.6%;
 	border: 1px solid #ddd;
 	border-bottom: 1px solid #aeaeae;
 	background: #fff;
 	line-height: 0;
 	border-radius: 2px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-o-border-radius: 3px;
-	-khtml-border-radius: 3px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	-khtml-border-radius: 2px;
 	-webkit-box-shadow: 0 7px 5px -6px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0 7px 5px -6px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 7px 5px -6px rgba(0, 0, 0, 0.2);
@@ -51,7 +60,7 @@ a {
 	left: 0.5%;
 	width: 50%;
 	max-width: 300px;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow: 0 12px 6px rgba(0,0,0, 0.3);
 	-moz-box-shadow: 0 12px 6px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 12px 6px rgba(0, 0, 0, 0.3);
@@ -71,4 +80,8 @@ a {
 	-moz-transform:rotate(3deg);
 	-ms-transform:rotate(3deg);
 	-o-transform:rotate(3deg);
+}
+
+.curve img {
+	max-width: 100%;
 }
