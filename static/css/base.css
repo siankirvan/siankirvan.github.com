@@ -62,7 +62,7 @@ a {
 	z-index: -1;
 	top: 80%;
 	bottom: 7px;
-	left: 0.8%;
+	left: 0.6%;
 	width: 50%;
 	max-width: 300px;
 	background: rgba(0, 0, 0, 0.3);
@@ -72,19 +72,19 @@ a {
 }
 
 .curve:before {
-	-webkit-transform:rotate(-3deg);
-	-moz-transform:rotate(-3deg);
-	-ms-transform:rotate(-3deg);
-	-o-transform:rotate(-3deg);
+	-webkit-transform:rotate(-2deg);
+	-moz-transform:rotate(-2deg);
+	-ms-transform:rotate(-2deg);
+	-o-transform:rotate(-2deg);
 }
 
 .curve:after {
-	right: 0.8%;
+	right: 0.6%;
 	left: auto;
-	-webkit-transform:rotate(3deg);
-	-moz-transform:rotate(3deg);
-	-ms-transform:rotate(3deg);
-	-o-transform:rotate(3deg);
+	-webkit-transform:rotate(2deg);
+	-moz-transform:rotate(2deg);
+	-ms-transform:rotate(2deg);
+	-o-transform:rotate(2deg);
 }
 
 .curve img {
