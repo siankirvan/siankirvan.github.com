@@ -1,0 +1,72 @@
+body {
+	font: 1em "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 5em;
+	font: 400 5em "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	font-size: 3.4em;
+	font-weight: 300;
+	color: #005580;
+}
+
+.curve {
+	width: 850px;
+}
+
+.curve {
+	position: relative;
+	z-index: inherit;
+	height: auto;
+	margin: 80px auto;
+	padding: 16px;
+	border: 1px solid #ddd;
+	border-bottom: 1px solid #aeaeae;
+	background: #fff;
+	line-height: 0;
+	border-radius: 2px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-box-shadow: 0 7px 5px -6px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 7px 5px -6px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 7px 5px -6px rgba(0, 0, 0, 0.2);
+}
+
+.curve:before, .curve:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 80%;
+	bottom: 7px;
+	left: 0.5%;
+	width: 50%;
+	max-width: 300px;
+	background: rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: 0 12px 6px rgba(0,0,0, 0.3);
+	-moz-box-shadow: 0 12px 6px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 12px 6px rgba(0, 0, 0, 0.3);
+}
+
+.curve:before {
+	-webkit-transform:rotate(-3deg);
+	-moz-transform:rotate(-3deg);
+	-ms-transform:rotate(-3deg);
+	-o-transform:rotate(-3deg);
+}
+
+.curve:after {
+	right: 0.6%;
+	left: auto;
+	-webkit-transform:rotate(3deg);
+	-moz-transform:rotate(3deg);
+	-ms-transform:rotate(3deg);
+	-o-transform:rotate(3deg);
+}
