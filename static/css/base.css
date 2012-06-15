@@ -90,17 +90,3 @@ a {
 .curve img {
 	max-width: 100%;
 }
-
-/*----------- media queries -----------*/
-
-@media screen and (max-device-width: 480px) {
-	#portfolio {
-		padding: 0 15px;
-	}
-	h1 {
-		font-size: 2em;
-	}
-	h2 {
-		font-size: 1.8em;
-	}
-}
