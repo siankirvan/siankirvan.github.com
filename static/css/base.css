@@ -1,92 +1,33 @@
 body {
 	margin: 0;
-	padding: 0;
+	padding: 40px;
 	font: 400 1em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background: url('/static/img/bg.png') repeat;
 	color: #333;
 }
 
-#portfolio {
+#contain {
 	margin: 0 auto;
-	padding: 0 30px;
-	max-width: 780px;
+	text-align: center;
+	max-width: 606px;
+}
+
+.logo {
+	width: 100%;
 }
 
 h1 {
-	margin-bottom: 0;
-	padding-right: 20px;
-	font-size: 3em;
-	font-weight: 300;
-}
-
-h2 {
-	margin-bottom: 50px;
-	padding-right: 20px;
 	font-size: 2.2em;
 	font-weight: 300;
-}
-
-h1, h2 {
-	text-align: right;
+	line-height: 1.2em;
 }
 
 a {
 	text-decoration: none;
-	color: #005580;
+	color: #08c;
 }
 
-.curve {
-	position: relative;
-	z-index: inherit;
-	max-width: 750px;
-	height: auto;
-	margin: 50px auto;
-	padding: 1.6%;
-	border: 1px solid #ddd;
-	border-bottom: 1px solid #aeaeae;
-	background: #fff;
-	line-height: 0;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-o-border-radius: 3px;
-	-khtml-border-radius: 3px;
-	-webkit-box-shadow: 0 7px 5px -6px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 0 7px 5px -6px rgba(0, 0, 0, 0.2);
-	box-shadow: 0 7px 5px -6px rgba(0, 0, 0, 0.2);
-}
-
-.curve:before, .curve:after {
-	content: "";
-	position: absolute;
-	z-index: -1;
-	top: 80%;
-	bottom: 7px;
-	left: 0.7%;
-	width: 50%;
-	max-width: 300px;
-	background: rgba(0, 0, 0, 0.3);
-	-webkit-box-shadow: 0 12px 6px rgba(0,0,0, 0.3);
-	-moz-box-shadow: 0 12px 6px rgba(0, 0, 0, 0.3);
-	box-shadow: 0 12px 6px rgba(0, 0, 0, 0.3);
-}
-
-.curve:before {
-	-webkit-transform:rotate(-2deg);
-	-moz-transform:rotate(-2deg);
-	-ms-transform:rotate(-2deg);
-	-o-transform:rotate(-2deg);
-}
-
-.curve:after {
-	right: 0.7%;
-	left: auto;
-	-webkit-transform:rotate(2deg);
-	-moz-transform:rotate(2deg);
-	-ms-transform:rotate(2deg);
-	-o-transform:rotate(2deg);
-}
-
-.curve img {
-	max-width: 100%;
+a:hover {
+	color: #fff;
+	background-color: #005580;
 }
