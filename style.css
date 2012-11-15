@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 40px;
 	font: 400 1em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background: url('/static/img/bg.png') repeat;
+	background: url('img/bg.png') repeat;
 	color: #333;
 }
 
